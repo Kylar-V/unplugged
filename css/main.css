@@ -83,9 +83,102 @@ textarea {
   resize: vertical;
 }
 
+.content-wrapper {
+  outline: 3px dotted red;
+  width: 90%;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hero-area {
+  display: flex;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+/* ========ABOUT PAGE========*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+/*========FAQ PAGE========*/
+
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.fag .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +353,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
