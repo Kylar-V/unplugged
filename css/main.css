@@ -194,13 +194,21 @@ header nav {
 }
 
 header nav ul {
-  width: 100%;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between; /* Adjust as needed */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li {
-  font-size: 1.125em;
+  margin: 0 1rem;
+}
+
+header nav ul li a img {
+  display: block;
+  height: 40px; /* Adjust height as needed */
 }
 
 footer {
